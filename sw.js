@@ -1,5 +1,5 @@
 // Offline cache for the app shell. Bump VERSION when you change any file.
-const VERSION = 'steady-v3';
+const VERSION = 'steady-v4';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './xlsx.mini.min.js'];
 
 self.addEventListener('install', e => {
